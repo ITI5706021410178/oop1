@@ -20,9 +20,17 @@ public class hw1 {
 		Day = Hour/24;
 		Hour = Hour % 24;
 	}
+		public void Print()
+	{
+		
+		JOptionPane.showMessageDialog(null,"Time \n Day:Hour:Min:Sec\n "+Day+":"+Hour+":"+Min+":"+Sec,"Message",JOptionPane.INFORMATION_MESSAGE);
+	}
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-
+		Test1 ts1 = new Test1();
+		ts1.getData();
+		ts1.Calc();
+		ts1.Print();
 	}
 
 
